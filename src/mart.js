@@ -39,14 +39,18 @@ function Mart(){
         <div id='d7'>
             
             <div id='categery'>
-                <div id='h1b'>
-                <p id='h1'>Categories</p>
-                </div>
-                <p>Home Appliances</p>
+                
+                <a href="#"><i className="Categories"></i>Categories</a>
+                <a href="#"><i className=">Home Appliances"></i>Home Appliances</a>
+                <a href="#"><i className="Grocery"></i>Grocery</a>
+                <a href="#"><i className="Toys"></i>Toys</a>
+                <a href="#"><i className="electronic gadgets"></i>electronic gadgets</a>
+                
+                {/* <p>Home Appliances</p>
                 <p>Grocery</p>
                 <p>Toys</p>
                 <p>perfumes</p>
-                <p>electronic gadgets</p>
+                <p>electronic gadgets</p> */}
 
             </div>
             <div>
