@@ -128,3 +128,14 @@ height: auto;
     background-color: white;
     margin: 25px;
 }
+#bt1{
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: rgb(157, 243, 214);
+margin-top: 10px;
+}
+#categery p:hover {
+    background-color: rgb(251, 244, 146);
+    height: 100%;
+  }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Logo from './shoppingbag.gif';
 import Logo1 from './8logo.gif';
 import Logo3 from './garments.jpg';
@@ -6,6 +6,18 @@ import Logo2 from './shoppingcart.gif';
 import './mart.css';
 
 function Mart(){
+    // const [color,setColor] =useState("skyblue");
+    // const [btntext,setBtntext] = useState("click");
+    // const changecolor=()=> {
+    //     if(color === "skyblue" && btntext ==="click"){
+    //         setColor('red');
+    //         setBtntext('click here');
+    //     }else{
+    //         setColor('skyblue');
+    //         setBtntext('click');
+    //     }
+    //     //alert ({setColor});
+    // }
     return(
         <>
         <div id='d8'>
@@ -39,24 +51,45 @@ function Mart(){
         <div id='d7'>
             
             <div id='categery'>
-                
-                <a href="#"><i className="Categories"></i>Categories</a>
-                <a href="#"><i className=">Home Appliances"></i>Home Appliances</a>
-                <a href="#"><i className="Grocery"></i>Grocery</a>
-                <a href="#"><i className="Toys"></i>Toys</a>
-                <a href="#"><i className="electronic gadgets"></i>electronic gadgets</a>
-                
-                {/* <p>Home Appliances</p>
+                <div id='h1b'>
+                <p id='h1'>Categories</p>
+                </div>
+                <p>Home Appliances</p>
                 <p>Grocery</p>
                 <p>Toys</p>
                 <p>perfumes</p>
-                <p>electronic gadgets</p> */}
+                <p>electronic gadgets</p>
 
             </div>
             <div>
             <img id='img3' src={Logo3} alt="Loading error"></img>
             </div>
 
+            
+        </div>
+        </div>
+
+
+        <div id='d9'>
+        <div id='d7'>
+            
+        <div style={{    borderRadius: "15px",backgroundColor: "gray",       
+            height: "300px",
+            padding:" 20px",
+            marginLeft:"20px",
+            width: "auto"}}>
+            <img style={{width:"200px", height:"200px"}} src={Logo3} alt="logo" />
+            {/* <h1> Hello </h1> */}
+            <div style={{textAlign:"center"}}>
+                
+                <button id="bt1"  
+                   >
+                    ADD to Cart
+                </button>
+
+            </div>
+            
+        </div>
             
         </div>
         </div>
